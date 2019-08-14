@@ -1,0 +1,4 @@
+.idea
+venv
+Data/mlp.pkl
+__pycache__

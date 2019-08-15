@@ -1,4 +1,5 @@
 .idea
 venv
 Data/mlp.pkl
+Data/mnist.pkl
 __pycache__

@@ -7,12 +7,11 @@ image_size = 28
 no_of_different_labels = 10
 image_pixels = image_size * image_size
 
-data_path = ""
 print("loading test data")
-test_data = np.loadtxt(data_path + "mnist_test.csv", delimiter=",")
+test_data = np.loadtxt("mnist_test.csv", delimiter=",")
 print("loaded test data")
 print("loading training data")
-train_data = np.loadtxt(data_path + "mnist_train.csv", delimiter=",")
+train_data = np.loadtxt("mnist_train.csv", delimiter=",")
 print("loaded training data")
 
 test_data[:10]
